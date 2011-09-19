@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EyeOfTheTigerActivity!</string>
+    <string name="app_name">EyeOfTheTiger</string>
+    <string name="choose_sport">CHOOSE YOUR SPORT!!</string>
+</resources>

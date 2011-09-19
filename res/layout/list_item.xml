@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+		<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:weightSum="1" android:layout_gravity="center_horizontal" android:layout_width="match_parent">
+			<TextView android:text="Choose Your Sport!" android:layout_width="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_marginRight="100dip"></TextView>
+			<ImageButton android:src="@android:drawable/ic_menu_preferences" android:id="@+id/imageButton1" android:layout_gravity="right" android:layout_width="27dp" android:layout_height="26dp"></ImageButton>
+		</LinearLayout>
+
+
+	<ListView android:id="@+id/list" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_weight="1.0" />
+
+</LinearLayout>
